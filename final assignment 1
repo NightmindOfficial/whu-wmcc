@@ -1,0 +1,86 @@
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+import time
+
+# Dictionary mit den Links zu den Marken
+links = {
+    "Acer": "https://www.notebooksbilliger.de/notebooks/acer+notebooks",
+    "Apple": "https://www.notebooksbilliger.de/notebooks/apple+notebooks",
+    "Asus": "https://www.notebooksbilliger.de/notebooks/asus+notebooks",
+    "Dell": "https://www.notebooksbilliger.de/notebooks/dell+notebooks",
+    "HP": "https://www.notebooksbilliger.de/notebooks/hp+notebooks",
+    "Huawei": "https://www.notebooksbilliger.de/notebooks/huawei+notebooks",
+    "Lenovo": "https://www.notebooksbilliger.de/notebooks/lenovo+notebooks",
+    "MSI": "https://www.notebooksbilliger.de/notebooks/msi+notebooks",
+    "Samsung": "https://www.notebooksbilliger.de/notebooks/samsung+notebooks"
+}
+
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+}
+
+# Gesamte Daten für alle Marken
+all_data = []
+
+for brand, url in links.items():
+    # Senden der GET-Anfrage
+    response = requests.get(url, headers=headers)
+    
+    # Überprüfung, ob die Anfrage erfolgreich war
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # Annahme: Jedes Produkt ist in einem übergeordneten Container enthalten
+        products = soup.find_all('li', class_='product-listing__row', limit=10)
+        
+        # Daten für jede Marke separat sammeln
+        data = []
+        for product in products:
+            # Extract the title
+            title_element = product.find('div', {'class':'product-card__product-heading-title'})
+            title = title_element.text.strip() if title_element else "Title Not Found"
+            
+            # Extract the price
+            price_element = product.find('div', {'class':'js-product-price product-price__price product-price__price--extra-large font--orange js-product-price'})
+            price = price_element.text.strip() if price_element else "Price Not Found"
+
+            #Extract the Availability
+            availability_element = product.find('span', {'class':'font--green product-detail__availability'})
+            availability = availability_element.text.strip() if availability_element else "Availability Not Found"
+
+            # Extract the evaluation (star rating)
+            rating_images = product.findAll('img', {'class': 'rating__star'})
+            evaluation = sum(1 for img in rating_images if 'full.svg' in img['src'])
+
+            # Extract the rating
+            ratingcount_element = product.find('div', {'class':'rating__row'})
+            ratingcount = ratingcount_element.text.strip() if ratingcount_element else "Rating Not Found"
+            
+            # For each item, create a dictionary with the extracted information
+            item_data = {
+                'item_title': title,
+                'price': price,
+                'availability': availability,
+                'evaluation': evaluation,   
+                'rating': ratingcount
+            }
+            # Append the dictionary to the data list
+            data.append(item_data)
+        
+        # Daten der aktuellen Marke zur Gesamtliste hinzufügen
+        all_data.extend(data)
+
+        # 8 Sekunden warten vor der nächsten Anfrage
+        time.sleep(8)
+        print(f"Completed request for {brand}")
+    else:
+        print(f"Failed to retrieve webpage for {brand}")
+
+# Erstellung eines DataFrames aus der Gesamtliste
+df = pd.DataFrame(all_data)
+
+# Speichern des DataFrames in einer CSV-Datei
+csv_file_name = 'new_all_brands_notebooks.csv'
+df.to_csv(csv_file_name, index=False)
+print(f"Data saved to {csv_file_name}")
