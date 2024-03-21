@@ -23,8 +23,8 @@ product-id,date-retrieved,vendor,title,price-eur,availability,evaluation,ratingc
 811467,2024-03-21,Asus,ASUS Zenbook 14 UM425QA-KI271W,599.0,Sofort ab Lager/Express,4,9
 826013,2024-03-21,Asus,ASUS Vivobook 17 X1704ZA-AU175,549.0,Sofort ab Lager/Express,5,1
 805393,2024-03-21,Asus,ASUS Vivobook 17X K3704VA-AU073W,899.0,Sofort ab Lager/Express,3,3
-821843,2024-03-21,Asus,ASUS Vivobook 15 M515UA-BQ584W,499.0,Sofort ab Lager/Express,0,0
 805391,2024-03-21,Asus,ASUS Vivobook 17 X1704ZA-AU021W,549.0,Voraussichtlich 03.04.2024,5,1
+821843,2024-03-21,Asus,ASUS Vivobook 15 M515UA-BQ584W,499.0,Sofort ab Lager/Express,0,0
 809020,2024-03-21,Asus,ASUS TUF A15 FA507NU-LP069W,949.0,Sofort ab Lager/Express,4,3
 800038,2024-03-21,Asus,ASUS Zenbook 14 OLED UM3402YA-KM452W,899.0,Sofort ab Lager/Express,0,0
 809085,2024-03-21,Asus,ASUS ROG Strix G16 G614JZ-N4013W,2199.0,Sofort ab Lager/Express,0,0
@@ -32,13 +32,13 @@ product-id,date-retrieved,vendor,title,price-eur,availability,evaluation,ratingc
 807295,2024-03-21,Dell,Dell Latitude 3540 (RNHKD),888.99,Sofort ab Lager/Express,0,0
 807339,2024-03-21,Dell,Dell Latitude 5440 (840T3),1195.99,Sofort ab Lager/Express,0,0
 807407,2024-03-21,Dell,Dell Latitude 5540 (7363G),925.99,Sofort ab Lager/Express,0,0
-807408,2024-03-21,Dell,Dell Latitude 5540 (1F8R2),1223.99,Sofort ab Lager/Express,0,0
 823892,2024-03-21,Dell,DELL Precision 3580 23JJK,1233.99,Jetzt vorbestellen,0,0
 807336,2024-03-21,Dell,Dell Latitude 5440 (7DW0T),987.99,Sofort ab Lager/Express,0,0
-807410,2024-03-21,Dell,Dell Latitude 5540 (DCC9D),1126.99,Ca. 2-4 Werktage,0,0
+807408,2024-03-21,Dell,Dell Latitude 5540 (1F8R2),1223.99,Sofort ab Lager/Express,0,0
 824022,2024-03-21,Dell,DELL Precision 3580 53JR4,1696.99,Ca. 2-4 Werktage,0,0
+807410,2024-03-21,Dell,Dell Latitude 5540 (DCC9D),1126.99,Ca. 2-4 Werktage,0,0
+808150,2024-03-21,Dell,Dell Precision 3480 (NVMJ5),1239.99,Ca. 2-4 Werktage,0,0
 807917,2024-03-21,Dell,DELL Latitude 7340 (PV6P8),1692.99,Ca. 2-4 Werktage,0,0
-806422,2024-03-21,Dell,Dell Latitude 3540 (6HXYV),756.99,Sofort ab Lager/Express,0,0
 820773,2024-03-21,HP,HP 17-cp2160ng,499.0,Sofort ab Lager/Express,4,67
 815844,2024-03-21,HP,HP 250 G9 7N029ES,369.0,Sofort ab Lager/Express,4,8
 805698,2024-03-21,HP,HP 255 G10 853S9ES,399.0,Sofort ab Lager/Express,3,12
@@ -46,14 +46,14 @@ product-id,date-retrieved,vendor,title,price-eur,availability,evaluation,ratingc
 779182,2024-03-21,HP,HP Pavilion x360 15-er1155ng,599.0,Sofort ab Lager/Express,3,25
 805441,2024-03-21,HP,HP Pavilion 15-eh3180ng,549.0,Sofort ab Lager/Express,4,5
 805693,2024-03-21,HP,HP 250 G10 853R4ES,399.0,Sofort ab Lager/Express,3,10
-813172,2024-03-21,HP,HP EliteBook 845 G10 5Z545ES,1199.0,Sofort ab Lager/Express,3,2
 796952,2024-03-21,HP,HP ProBook 450 G9 779H2ES,729.0,Sofort ab Lager/Express,0,0
+813172,2024-03-21,HP,HP EliteBook 845 G10 5Z545ES,1199.0,Sofort ab Lager/Express,3,2
 805516,2024-03-21,HP,HP VICTUS 15-fb0156ng,699.0,Sofort ab Lager/Express,0,0
 791186,2024-03-21,Huawei,"HUAWEI MateBook D 15 (2022) - Core i5, 8GB+512GB, Win11, Silber",489.0,Sofort ab Lager/Express,0,0
 827486,2024-03-21,Huawei,"HUAWEI MateBook D 14 (2024) - Core i5, 16GB+512GB, Win11, Grau",699.0,Sofort ab Lager/Express,0,0
+825926,2024-03-21,Huawei,HUAWEI MateBook D 14 (2023) inkl. KIOXIA EXCERIA PLUS 1TB,812.9,Sofort ab Lager/Express,0,0
 821279,2024-03-21,Huawei,"HUAWEI MateBook D 14 (2023) - Core i5, 16GB+512GB, Win11, Grau",749.0,Sofort ab Lager/Express,0,0
 824340,2024-03-21,Huawei,"HUAWEI MateBook D 16 (2024) - Core i5 12th, 16GB+512GB, Grau",749.0,Sofort ab Lager/Express,0,0
-825926,2024-03-21,Huawei,HUAWEI MateBook D 14 (2023) inkl. KIOXIA EXCERIA PLUS 1TB,812.9,Sofort ab Lager/Express,0,0
 805541,2024-03-21,Huawei,"HUAWEI MateBook 16s (2023) - Core i9, 16GB+1TB, Win11, Grau",1799.0,Sofort ab Lager/Express,0,0
 791187,2024-03-21,Huawei,"HUAWEI MateBook D 15 (2022) - Core i5, 16GB+512GB, Win11, Silber",899.0,Sofort ab Lager/Express,0,0
 791175,2024-03-21,Huawei,"HUAWEI MateBook D 14 (2022) - Core i5, 16GB+512GB, Win11, Grau",899.0,Sofort ab Lager/Express,0,0
@@ -76,16 +76,16 @@ product-id,date-retrieved,vendor,title,price-eur,availability,evaluation,ratingc
 810615,2024-03-21,MSI,MSI Katana 17 B13VGK-825,1499.0,Sofort ab Lager/Express,4,71
 789559,2024-03-21,MSI,MSI Thin GF63 12VE-030,799.0,Sofort ab Lager,4,40
 810614,2024-03-21,MSI,MSI Katana 15 B13VGK-1434,1399.0,Sofort ab Lager/Express,5,94
-789557,2024-03-21,MSI,MSI Cyborg 15 A12VF-096,999.0,Sofort ab Lager/Express,4,56
 816130,2024-03-21,MSI,MSI Bravo 15 B7ED-021,899.0,Sofort ab Lager/Express,0,0
-821285,2024-03-21,MSI,MSI Katana 17 B13VGK-825,1657.42,Sofort ab Lager/Express,4,71
+789557,2024-03-21,MSI,MSI Cyborg 15 A12VF-096,999.0,Sofort ab Lager/Express,4,56
+823677,2024-03-21,MSI,MSI Creator Z17 HX Studio A14VGT-259,4099.0,Sofort ab Lager/Express,0,0
 792579,2024-03-21,Samsung,SAMSUNG Galaxy Book3 360,899.0,Sofort ab Lager/Express,0,0
 803646,2024-03-21,Samsung,SAMSUNG Galaxy Book3 360,799.0,Sofort ab Lager/Express,0,0
 809426,2024-03-21,Samsung,SAMSUNG Galaxy Book3 Pro,999.0,Sofort ab Lager/Express,0,0
 792622,2024-03-21,Samsung,SAMSUNG Galaxy Book3 Pro 360,1599.0,Sofort ab Lager/Express,0,0
 792576,2024-03-21,Samsung,SAMSUNG Galaxy Book3 360,999.0,Sofort ab Lager/Express,0,0
-843025,2024-03-21,Samsung,SAMSUNG Galaxy Book3 360 B-Ware,797.99,Sofort ab Lager/Express,0,0
-845295,2024-03-21,Samsung,SAMSUNG Galaxy Book3 360 B-Ware,862.99,Sofort ab Lager/Express,0,0
 844693,2024-03-21,Samsung,SAMSUNG Galaxy Book3 360 B-Ware,835.99,Sofort ab Lager/Express,0,0
 847536,2024-03-21,Samsung,SAMSUNG Galaxy Book3 Ultra B-Ware,2351.02,Sofort ab Lager/Express,4,1
 827315,2024-03-21,Samsung,SAMSUNG Galaxy Book3 Ultra B-Ware,2015.99,Sofort ab Lager/Express,4,1
+809378,2024-03-21,Samsung,SAMSUNG Galaxy Book3 Pro,1599.0,Sofort ab Lager/Express,0,0
+843025,2024-03-21,Samsung,SAMSUNG Galaxy Book3 360 B-Ware,797.99,Sofort ab Lager/Express,0,0
