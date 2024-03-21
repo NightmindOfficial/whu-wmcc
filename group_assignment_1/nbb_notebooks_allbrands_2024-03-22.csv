@@ -1,14 +1,14 @@
-date-retrieved,vendor,title,price-eur,availability,evaluation,ratingcount
+﻿date-retrieved,vendor,title,price-eur,availability,evaluation,ratingcount
 2024-03-21,Acer,Acer Aspire 3 (A317-53-7117),579.0,Sofort ab Lager/Express,4,4
 2024-03-21,Acer,Acer Extensa 215 (EX215-55-30UU),319.0,Sofort ab Lager/Express,1,2
-2024-03-21,Acer,Acer Aspire 5 (A515-57G-541Q),549.0,Sofort ab Lager/Express,4,4
+2024-03-21,Acer,Acer Aspire 5 (A515-57G-541Q),599.0,Sofort ab Lager/Express,4,4
 2024-03-21,Acer,Acer Aspire 5 (A517-58GM-72YC),1199.0,Sofort ab Lager/Express,3,2
 2024-03-21,Acer,Acer Chromebook 314 (CB314-2HT-K4GV),199.0,Sofort ab Lager/Express,4,9
 2024-03-21,Acer,Acer Aspire 5 (A515-57-50HC),579.0,Sofort ab Lager/Express,4,4
 2024-03-21,Acer,Acer Aspire 3 (A317-53-39KB),449.0,Sofort ab Lager/Express,4,4
-2024-03-21,Acer,Acer Aspire 5 (A515-48M-R2N4),499.0,Sofort ab Lager/Express,2,2
 2024-03-21,Acer,Acer Aspire 5 (A515-58M-77G1),699.0,Sofort ab Lager/Express,0,0
 2024-03-21,Acer,Acer Aspire 3 (A317-53-538B),549.0,Sofort ab Lager/Express,4,4
+2024-03-21,Acer,Acer Aspire 5 (A515-48M-R2N4),429.0,Sofort ab Lager/Express,2,2
 2024-03-21,Apple,"Apple MacBook Air (M1, 2020) MGN93D/A Silber",849.0,Sofort ab Lager/Express,5,26
 2024-03-21,Apple,"Apple MacBook Air (M1, 2020) MGN63D/A SpaceGrau",849.0,Sofort ab Lager/Express,5,56
 2024-03-21,Apple,"Apple MacBook Air 13"" (M2, 2022) MLXW3D/A Space Grau",1049.0,Sofort ab Lager/Express,5,36
@@ -21,8 +21,8 @@ date-retrieved,vendor,title,price-eur,availability,evaluation,ratingcount
 2024-03-21,Apple,"Apple MacBook Air 13,6"" M3 MXCV3D/A Mitternacht",1698.0,Jetzt vorbestellen,0,0
 2024-03-21,Asus,ASUS ROG Strix G17 G713PI-LL077,1799.0,Sofort ab Lager/Express,4,11
 2024-03-21,Asus,ASUS Zenbook 14 UM425QA-KI271W,599.0,Sofort ab Lager/Express,4,9
-2024-03-21,Asus,ASUS Vivobook 17 X1704ZA-AU175,549.0,Sofort ab Lager/Express,5,1
-2024-03-21,Asus,ASUS Vivobook 17X K3704VA-AU073W,899.0,Sofort ab Lager/Express,3,3
+2024-03-21,Asus,ASUS Vivobook 17 X1704ZA-AU175,531.0,Sofort ab Lager/Express,5,1
+2024-03-21,Asus,ASUS Vivobook 17X K3704VA-AU073W,929.99,Sofort ab Lager/Express,3,3
 2024-03-21,Asus,ASUS Vivobook 17 X1704ZA-AU021W,549.0,Voraussichtlich 03.04.2024,5,1
 2024-03-21,Asus,ASUS TUF A15 FA507NU-LP069W,949.0,Sofort ab Lager/Express,4,3
 2024-03-21,Asus,ASUS Vivobook 15 M515UA-BQ584W,499.0,Sofort ab Lager/Express,0,0
@@ -34,10 +34,10 @@ date-retrieved,vendor,title,price-eur,availability,evaluation,ratingcount
 2024-03-21,Dell,Dell Latitude 5540 (7363G),925.99,Sofort ab Lager/Express,0,0
 2024-03-21,Dell,DELL Precision 3580 23JJK,1233.99,Jetzt vorbestellen,0,0
 2024-03-21,Dell,Dell Latitude 5440 (7DW0T),987.99,Sofort ab Lager/Express,0,0
+2024-03-21,Dell,Dell Latitude 5540 (1F8R2),1223.99,Sofort ab Lager/Express,0,0
 2024-03-21,Dell,Dell Latitude 5540 (DCC9D),1126.99,Ca. 2-4 Werktage,0,0
 2024-03-21,Dell,DELL Precision 3580 53JR4,1696.99,Ca. 2-4 Werktage,0,0
-2024-03-21,Dell,Dell Latitude 5540 (1F8R2),1223.99,Sofort ab Lager/Express,0,0
-2024-03-21,Dell,Dell Precision 3480 (NVMJ5),1239.99,Ca. 2-4 Werktage,0,0
+2024-03-21,Dell,Dell Precision 3480 (NVMJ5),2299.90,Ca. 2-4 Werktage,0,0
 2024-03-21,Dell,DELL Latitude 7340 (PV6P8),1692.99,Ca. 2-4 Werktage,0,0
 2024-03-21,HP,HP 17-cp2160ng,499.0,Sofort ab Lager/Express,4,67
 2024-03-21,HP,HP 250 G9 7N029ES,369.0,Sofort ab Lager/Express,4,8
@@ -49,16 +49,16 @@ date-retrieved,vendor,title,price-eur,availability,evaluation,ratingcount
 2024-03-21,HP,HP ProBook 450 G9 779H2ES,729.0,Sofort ab Lager/Express,0,0
 2024-03-21,HP,HP EliteBook 845 G10 5Z545ES,1199.0,Sofort ab Lager/Express,3,2
 2024-03-21,HP,HP VICTUS 15-fb0156ng,699.0,Sofort ab Lager/Express,0,0
-2024-03-21,Huawei,"HUAWEI MateBook D 15 (2022) - Core i5, 8GB+512GB, Win11, Silber",489.0,Sofort ab Lager/Express,0,0
-2024-03-21,Huawei,"HUAWEI MateBook D 14 (2024) - Core i5, 16GB+512GB, Win11, Grau",699.0,Sofort ab Lager/Express,0,0
-2024-03-21,Huawei,"HUAWEI MateBook X Pro (2022) - Core i7, 16GB+1TB, Win11, Blau",2199.0,Sofort ab Lager / Express,0,0
-2024-03-21,Huawei,"HUAWEI MateBook D 16 (2024) - Core i5 12th, 8GB+512GB, Grau",799.0,Sofort ab Lager/Express,0,0
-2024-03-21,Huawei,"HUAWEI MateBook D 14 (2023) - Core i5, 16GB+512GB, Win11, Grau",749.0,Sofort ab Lager/Express,0,0
-2024-03-21,Huawei,"HUAWEI MateBook D 16 (2024) - Core i5 12th, 16GB+512GB, Grau",749.0,Sofort ab Lager/Express,0,0
-2024-03-21,Huawei,HUAWEI MateBook D 14 (2023) inkl. KIOXIA EXCERIA PLUS 1TB,812.9,Sofort ab Lager/Express,0,0
+2024-03-21,Huawei,"HUAWEI MateBook D 15 (2022) - Core i5, 8GB+512GB, Win11, Silber",1289.0,Sofort ab Lager/Express,0,0
+2024-03-21,Huawei,"HUAWEI MateBook D 14 (2024) - Core i5, 16GB+512GB, Win11, Grau",6299.0,Sofort ab Lager/Express,0,0
+2024-03-21,Huawei,HUAWEI MateBook D 14 (2023) inkl. Microsoft 365 Family,8738.00,Sofort ab Lager / Express,0,0
+2024-03-21,Huawei,"HUAWEI MateBook D 16 (2024) - Core i9 13th, 16GB+1TB, Grau",1299.0,Sofort ab Lager / Express,0,0
+2024-03-21,Huawei,"HUAWEI MateBook D 15 (2022) - Core i5, 16GB+512GB, Win11, Silber",899.0,Sofort ab Lager / Express,0,0
+2024-03-21,Huawei,"HUAWEI MateBook D 14 (2022) - Core i5, 16GB+512GB, Win11, Grau",899.0,Sofort ab Lager / Express,0,0
 2024-03-21,Huawei,"HUAWEI MateBook 16s (2023) - Core i9, 16GB+1TB, Win11, Grau",1799.0,Sofort ab Lager/Express,0,0
-2024-03-21,Huawei,"HUAWEI MateBook D 15 (2022) - Core i5, 16GB+512GB, Win11, Silber",899.0,Sofort ab Lager/Express,0,0
-2024-03-21,Huawei,"HUAWEI MateBook D 14 (2022) - Core i5, 16GB+512GB, Win11, Grau",899.0,Sofort ab Lager/Express,0,0
+2024-03-21,Huawei,"HUAWEI MateBook X Pro (2022) - Core i7, 16GB+1TB, Win11, Blau",2199.0,Sofort ab Lager / Express,0,0
+2024-03-21,Huawei,"HUAWEI MateBook D 16 (2024) - Core i5 12th, 8GB+512GB, Grau",799.0,Sofort ab Lager / Express,0,0
+2024-03-21,Huawei,"HUAWEI MateBook D 14 (2023) - Core i5, 16GB+512GB, Win11, Grau",749.0,Sofort ab Lager / Express,0,0
 2024-03-21,Lenovo,Lenovo V15 G4 83FS0026GE,499.0,Sofort ab Lager/Express,5,3
 2024-03-21,Lenovo,Lenovo IdeaPad 3 Slim 83ES000XGE,549.0,Sofort ab Lager/Express,0,0
 2024-03-21,Lenovo,Lenovo IdeaPad Flex 5 82XX0003GE,629.0,Sofort ab Lager/Express,0,0
@@ -84,8 +84,8 @@ date-retrieved,vendor,title,price-eur,availability,evaluation,ratingcount
 2024-03-21,Samsung,SAMSUNG Galaxy Book3 Pro,999.0,Sofort ab Lager/Express,0,0
 2024-03-21,Samsung,SAMSUNG Galaxy Book3 Pro 360,1599.0,Sofort ab Lager/Express,0,0
 2024-03-21,Samsung,SAMSUNG Galaxy Book3 360,999.0,Sofort ab Lager/Express,0,0
-2024-03-21,Samsung,SAMSUNG Galaxy Book3 360 B-Ware,797.99,Sofort ab Lager/Express,0,0
-2024-03-21,Samsung,SAMSUNG Galaxy Book3 360 B-Ware,862.99,Sofort ab Lager/Express,0,0
 2024-03-21,Samsung,SAMSUNG Galaxy Book3 360 B-Ware,835.99,Sofort ab Lager/Express,0,0
 2024-03-21,Samsung,SAMSUNG Galaxy Book3 Ultra B-Ware,2351.02,Sofort ab Lager/Express,4,1
+2024-03-21,Samsung,SAMSUNG Galaxy Book3 Ultra B-Ware,2015.99,Sofort ab Lager/Express,4,1
 2024-03-21,Samsung,SAMSUNG Galaxy Book3 Pro,1599.0,Sofort ab Lager,0,0
+2024-03-21,Samsung,SAMSUNG Galaxy Book3 360 B-Ware,797.99,Sofort ab Lager/Express,0,0
