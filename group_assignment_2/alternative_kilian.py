@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np
 from pandas.io.formats.style import Styler
 import plotly.graph_objs as go
+st.set_page_config(layout="wide")
 
 
 # Initialize the Spotipy client with your Spotify API credentials

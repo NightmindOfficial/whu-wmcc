@@ -91,9 +91,9 @@ def main():
         non_features = ['analysis_url', 'id', 'track_href', 'type', 'uri']
         df.drop(labels=non_features, axis=1, inplace=True)
 
-        # Split by class for plotting
-        playlist1_features = df[df['class'] == 1]
-        playlist2_features = df[df['class'] == 0]
+        # Split by class (playlist) for plotting
+        playlist1_features = df[df['class'] == 0]
+        playlist2_features = df[df['class'] == 1]
 
         # Plotting (for simplicity, only plotting acousticness here)
         #fig, ax = plt.subplots()
